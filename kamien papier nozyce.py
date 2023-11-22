@@ -22,5 +22,8 @@ elif wybor_gracza=="kamien" and wybor_komputera=="nozyce":
     time.sleep(1)
     print("Przegrałeś")
 
-    
+
 print("dziekuje za gre fani")
+
+
+njnjnh
