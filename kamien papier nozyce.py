@@ -7,7 +7,10 @@ print("Gra w kamien papier nozyce")
 
 time.sleep(1.5)
 
-opcje=["kamien","papier","nozyce"] 
+opcje=["kamien","papier","nozyce"]
+
+punkty_gracza=0
+punkty_komputera=0
 
 
 while True:
@@ -23,15 +26,18 @@ while True:
         elif wybor_gracza=="kamien" and wybor_komputera=="papier":
             print("kamien vs papier")
             time.sleep(1)
-            print("Wygrales!")
+            print("Przegrales!")
+            punkty_komputera=punkty_komputera+1
         elif wybor_gracza=="kamien" and wybor_komputera=="nozyce":
             print("kamien vs nozyce")
             time.sleep(1)
-            print("Przegraleś")
+            print("Wygrales")
+            punkty_gracza=punkty_gracza+1
         elif wybor_gracza=="papier" and wybor_komputera=="kamien":
             print("papier vs kamien")
             time.sleep(1)
             print("Wygrales!")
+            punkty_gracza==punkty_gracza+1
         elif wybor_gracza=="papier" and wybor_komputera=="papier":
             print("papier vs papier")
             time.sleep(1)
@@ -40,19 +46,31 @@ while True:
             print("papier vs nozyce")
             time.sleep(1)
             print("Przegrales")
+            punkty_komputera=punkty_komputera+1
         elif wybor_gracza=="nozyce" and wybor_komputera=="kamien":
             print("nozyce vs kamien")
             time.sleep(1)
             print("Przegrales")
+            punkty_komputera=punkty_komputera+1
         elif wybor_gracza=="nozyce" and wybor_komputera=="papier":
             print("nozyce vs papier")
             time.sleep(1)
             print("Wygrales")
+            punkty_gracza=punkty_gracza+1
         elif wybor_gracza=="nozyce" and wybor_komputera=="nozyce":
             print("nozyce vs nozyce")
             time.sleep(1)
             print("Remis!")
+            
+            time.sleep(1)
+            print(f"Wynik to {punkty_gracza} : {punkty_komputera}")
+            time.sleep(1)
+           
+            print("Kolejna runda!")
+        else:
+            print("Wybierz kamien papier lub nozyce wpisujac te slowa")
+            time.sleep(1)
+            print("Wynik nie ulegl zmianie")
+        
 
-        time.sleep(1)
-        print("Kolejna runda!")
-        time.sleep(2)
+    time.sleep(2)
