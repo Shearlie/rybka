@@ -6,11 +6,10 @@ x=0
 
 czas_rozpoczecia=time.time()
 
-
 while True:
     x=x+1
     print(x)
-    if x == 5000:
+    if x == 10000:
         break
 
 czas_zakonczenia=time.time()
