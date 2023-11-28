@@ -28,7 +28,7 @@ while True:
             time.sleep(1)
             print("Remis!")
         elif wybor_gracza=="kamien" and wybor_komputera=="papier":
-            print("kamien vs papier")
+            print("kamien vs papier")   
             time.sleep(1)
             print("Porazka:(")
             punkty_komputera=punkty_komputera+1
