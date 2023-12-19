@@ -43,7 +43,7 @@ elif wybrana_figura==figury_geometryczne[2]:
 #OBLICZYC TERAZ WPROWADZIC POLA DO TEGO GRANIASTOSLUPA
 
 
-        figura_podstawy_graniastoslupa[1]="a*b"RERE
+        figura_podstawy_graniastoslupa[1]="a*b"
     
         figura_podstawy_graniastoslupa[2]="a*h/2"
         figura_podstawy_graniastoslupa[3]="(a+b)*h/2"
