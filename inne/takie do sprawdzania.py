@@ -4,4 +4,4 @@ lista[0]=1
 print(lista)
 H ffegrg
 
-gtgtgg
+gtgtgggrgrg
