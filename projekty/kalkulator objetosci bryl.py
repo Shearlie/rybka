@@ -19,7 +19,7 @@ if wybrana_figura==figury_geometryczne[0]:
     objetosc_figury=a*b*h 
     
 elif wybrana_figura==figury_geometryczne[1]:
-    a=input("Ile wynosi dlugosc krawedzi tego szczesciau")    gbgbg
+    a=input("Ile wynosi dlugosc krawedzi tego szczesciau")    
     objetosc_figury=a*a*a
 
 elif wybrana_figura==figury_geometryczne[2]:
